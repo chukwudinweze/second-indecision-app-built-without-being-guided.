@@ -1,0 +1,24 @@
+.add-option {
+  display: flex;
+  padding: $m-size;
+}
+
+.add-option__input {
+  background: $dark-blue;
+  flex-grow: 1;
+  border: none;
+  margin-right: $s-size;
+  color: $off-white;
+  padding: $s-size;
+}
+
+@media (max-width: 600px) {
+  .add-option {
+    flex-direction: column;
+    padding: $s-size;
+  }
+
+  .add-option__input {
+    margin-right: 0;
+  }
+}
